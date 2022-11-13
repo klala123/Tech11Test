@@ -11,6 +11,11 @@ import javax.ws.rs.core.Response;
 
 @Path("usersdao")
 public class PutUserInPostgres extends AbstractPutState<UserEntityDao> {
+    /**
+     * Please notice that you should use UserEntityDao attributes here
+     * also with password, firstname,lastname,birthday,email and id
+     */
+
     @Inject
     UserStorageDao storageDao;
 
