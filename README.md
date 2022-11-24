@@ -4,6 +4,7 @@
 
 - Put User : http://localhost:8080/tech11Test/api/usersdao/1   But with following attributes --> 
             it is important that you enter the password to ensure that only the user himself can change his data
+
 {   
     "id": 1,
     "birthDay": "1997-03-16",
